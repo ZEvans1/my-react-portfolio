@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
+import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import './LandingPage.css'
 
 
 class LandingPage extends Component {
     render(){
         return(
-            <div>
-                <Grid container style={{width: '100%', margin: 'auto'}}>
-                    <Grid item xs={12} style={{textAlign: 'center'}}>
-                        <p>Hello world</p>
-                    </Grid>
-                </Grid>
+            <div style={{width: '100%', margin: 'auto'}}>
+                <p>Hello World</p>
             </div>
         )
     }
