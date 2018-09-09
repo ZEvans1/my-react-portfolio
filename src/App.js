@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Main from './Components/main';
 
 class App extends Component {
   
   render() {
     return (
-      <div>
-        <Main/>
+      <div className="main-section">
+        <div className="top-bar">
+          <p>about</p>
+          <p>portfolio</p>
+        </div>
       </div>
     );
   }
