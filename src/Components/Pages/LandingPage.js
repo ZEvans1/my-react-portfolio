@@ -4,8 +4,10 @@ import Grid from 'react-materialize';
 class LandingPage extends Component {
     render(){
         return(
-            <div>
-
+            <div className="full-screen">
+                <Grid>
+                    
+                </Grid>
             </div>
         )
     }
