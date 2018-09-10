@@ -7,8 +7,10 @@ class App extends Component {
     return (
       <div className="main-section">
         <div className="top-bar">
-          <p>about</p>
-          <p>portfolio</p>
+            <p>My portfolio</p>
+            <p>about</p>
+            <p>portfolio</p>
+          
         </div>
       </div>
     );
