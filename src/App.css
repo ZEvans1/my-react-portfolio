@@ -5,7 +5,7 @@
 .top-bar {
     width: 100%;
     display: grid;
-    grid-template-columns: auto 1fr 1fr;
+    grid-template-columns: 80% 10% 10%;
     grid-template-rows: 50px;
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 }
