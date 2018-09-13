@@ -1,9 +1,12 @@
 .main-section {
-  /* border: solid red; */
-  display: grid;
-  grid-template-columns: 10% 80% 10%;
+  border: solid blue;
   /* width: 100%;
   margin: auto; */
+}
+
+.main-row {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
 }
 
 .my-info {
@@ -17,7 +20,7 @@
   margin: auto;
 }
 .social-links i {
-  color: rgb(195, 136, 223);
+  color: rgb(118, 172, 216);
   font-size: 5em;
   padding: 1px;
 }
@@ -35,4 +38,8 @@
 .nav-circle-bottom {
   display: flex;
   justify-content: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin: auto;
 }
