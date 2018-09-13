@@ -1,5 +1,5 @@
 .main-section {
-  border: solid red;
+  /* border: solid red; */
   display: grid;
   grid-template-columns: 10% 80% 10%;
   /* width: 100%;
