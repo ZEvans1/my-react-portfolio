@@ -23,9 +23,16 @@
 }
 
 .nav-circle-left {
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .nav-circle-right {
-  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-circle-bottom {
+  display: flex;
+  justify-content: center;
 }

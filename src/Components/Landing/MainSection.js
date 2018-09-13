@@ -21,7 +21,7 @@ class MainSection extends Component {
         </div>
         <p className="nav-circle-right">Mobile Projects</p>
         <div>
-          <p>Contact</p>
+          <p className="nav-circle-bottom">Contact</p>
         </div>
       </div>
     );
