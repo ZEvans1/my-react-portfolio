@@ -1,11 +1,31 @@
 .main-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: solid red;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  /* width: 100%;
+  margin: auto; */
 }
 
 .my-info {
-  border: solid black;
   text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i {
+  color: rgb(195, 136, 223);
+  font-size: 5em;
+  padding: 1px;
+}
+
+.nav-circle-left {
+  position: relative;
+}
+
+.nav-circle-right {
+  position: relative;
 }
