@@ -7,10 +7,13 @@ class MainSection extends Component {
     return (
       <div className="main-section">
         <div className="main-row">
-          <p className="nav-circle-left">Fullstack Projects</p>
+          <div className="nav-circle-left">
+            <div className="nav-left"></div>
+            <p>Web Projects</p>
+          </div>
           <div className="my-info">
             <h1>Zach Evans</h1>
-            <h2>Fullstack & Mobile Developer</h2>
+            <h2>Web & Mobile Developer</h2>
             <div className="social-links">
               <a href="https://www.linkedin.com/in/zach-t-evans/" rel="noopener noreferrer" target="_blank">
                 <i className="fa fa-linkedin-square" aria-hidden="true"/>
@@ -20,9 +23,13 @@ class MainSection extends Component {
               </a>
             </div>
           </div>
-          <p className="nav-circle-right">Mobile Projects</p>
+          <div className="nav-circle-right">
+            <div className="nav-right"></div>  
+            <p>Mobile Projects</p>
+          </div>
         </div>
         <div className="nav-circle-bottom">
+          <div className="nav-bottom"></div>
           <p>Contact</p>
         </div>
       </div>
