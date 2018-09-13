@@ -1,0 +1,11 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid red;
+}
+
+.my-info {
+  border: solid black;
+  text-align: center;
+}

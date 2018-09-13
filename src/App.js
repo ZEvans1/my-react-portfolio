@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
-import LandingPage from './Components/LandingPage/LandingPage';
+import MainSection from './Components/Landing/MainSection';
 import './App.css';
 
 class App extends Component {
   
   render() {
     return (
-      <div className="main-section">
-        <div className="top-bar">
-            <p>My portfolio</p>
-            <p>about</p>
-            <p>portfolio</p>
-        </div>
-        <LandingPage/>
+      <div className="app-main">
+        <MainSection/>
       </div>
     );
   }
