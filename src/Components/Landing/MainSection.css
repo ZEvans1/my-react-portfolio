@@ -7,7 +7,8 @@
 
 .main-row {
   display: grid;
-  grid-template-columns: 10% 80% 10%;
+  grid-template-columns: 15% 70% 15%;
+  
 }
 
 .my-info {
@@ -16,9 +17,9 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 50%;
-  margin: auto;
+  margin: auto; 
 }
 .social-links i {
   color: rgb(118, 172, 216);
@@ -26,15 +27,13 @@
   padding: 1px;
 }
 
-/* .nav-circle-left {
-  display: flex;
-  align-items: center;
+.nav-circle-left {
+  border: solid purple;
 }
 
 .nav-circle-right {
-  display: flex;
-  align-items: center;
-} */
+  border: solid purple;
+}
 
 .nav-circle-bottom {
   display: flex;
@@ -43,22 +42,22 @@
   left: 50%;
   bottom: 0;
   margin: auto;
+  border: solid pink;
 }
 
 .nav-left {
-  display: inline-block;
+  float: left;
   width: 4em;
   height: 4em;
   border: 0.5em solid #333;
   border-radius: 50%;
-  margin-right: 1.5em;
 }
 
 .nav-left:after {
   content: '';
 	display: inline-block;
-  margin-top: 1.05em;
-  margin-left: 0.6em;
+  margin-top: 0.9em;
+  margin-left: 1em;
   width: 1.4em;
   height: 1.4em;
   border-top: 0.5em solid #333;
@@ -69,19 +68,19 @@
 }
 
 .nav-right {
-  display: inline-block;
+  float: right;
   width: 4em;
   height: 4em;
   border: 0.5em solid #333;
   border-radius: 50%;
-  margin-left: 1.5em;
+  margin-left: 5em;
 }
 
 .nav-right:after {
   content: '';
 	display: inline-block;
-  margin-top: 1.05em;
-  margin-left: -0.6em;
+  margin-top: 0.9em;
+  margin-left: 0.5em;
   width: 1.4em;
   height: 1.4em;
   border-top: 0.5em solid #333;
