@@ -24,11 +24,11 @@
 }
 
 .nav-circle-left {
-  border: solid white;
+  background: rgba(0, 0, 0, 0);
 }
 
 .nav-circle-right {
-  border: solid white;
+  background: rgba(0, 0, 0, 0);
 }
 
 .nav-left {
