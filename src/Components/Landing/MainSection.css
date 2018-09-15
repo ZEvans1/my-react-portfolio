@@ -1,14 +1,10 @@
 .main-section {
-  /* border: solid blue; */
-  background: white;
-  /* width: 100%;
-  margin: auto; */
+  background: rgba(0,0,0,0);
 }
 
 .main-row {
   display: grid;
   grid-template-columns: 15% 70% 15%;
-  
 }
 
 .my-info {
@@ -28,21 +24,11 @@
 }
 
 .nav-circle-left {
-  border: solid purple;
+  border: solid white;
 }
 
 .nav-circle-right {
-  border: solid purple;
-}
-
-.nav-circle-bottom {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  margin: auto;
-  border: solid pink;
+  border: solid white;
 }
 
 .nav-left {
@@ -79,7 +65,7 @@
 .nav-right:after {
   content: '';
 	display: inline-block;
-  margin-top: 0.9em;
+  margin-top: 0.8em;
   margin-left: 0.5em;
   width: 1.4em;
   height: 1.4em;
@@ -90,19 +76,24 @@
   transform: rotate(45deg);
 }
 
+.nav-circle-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 47%;
+}
+
 .nav-bottom {
-  display: inline-block;
   width: 4em;
   height: 4em;
   border: 0.5em solid #333;
   border-radius: 50%;
-  margin-left: 0.75em;
 }
 
 .nav-bottom:after {
   content: '';
 	display: inline-block;
   margin-top: 0.6em;
+  margin-left: 0.8em;
   width: 1.4em;
   height: 1.4em;
   border-top: 0.5em solid #333;
