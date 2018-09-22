@@ -3,12 +3,15 @@
 }
 
 .main-row {
-  display: grid;
-  grid-template-columns: 15% 70% 15%;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .my-info {
   text-align: center;
+  
+  justify-content: center;
 }
 
 .social-links {
@@ -25,14 +28,10 @@
 
 .nav-circle-left {
   background: rgba(0, 0, 0, 0);
-  border: solid red;
+  
   width: 5em;
 }
 
-.nav-circle-right {
-  background: rgba(0, 0, 0, 0);
-  border: solid red;
-}
 
 .nav-left {
   float: left;
@@ -58,6 +57,12 @@
 
 .nav-left:hover {
   background: red;
+}
+
+.nav-circle-right {
+  background: rgba(0, 0, 0, 0);
+  
+  width: 5em;
   
 }
 
