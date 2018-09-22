@@ -18,17 +18,20 @@
   margin: auto; 
 }
 .social-links i {
-  color: rgb(118, 172, 216);
+  color: rgba(88, 88, 88, 0.774);
   font-size: 5em;
   padding: 1px;
 }
 
 .nav-circle-left {
   background: rgba(0, 0, 0, 0);
+  border: solid red;
+  width: 5em;
 }
 
 .nav-circle-right {
   background: rgba(0, 0, 0, 0);
+  border: solid red;
 }
 
 .nav-left {
@@ -46,11 +49,16 @@
   margin-left: 1.4em;
   width: 1.3em;
   height: 1.3em;
-  border-top: 0.3em solid #333;
-  border-right: 0.3em solid #333;
+  border-top: 0.2em solid #333;
+  border-right: 0.2em solid #333;
   -moz-transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
+}
+
+.nav-left:hover {
+  background: red;
+  
 }
 
 .nav-right {
@@ -69,8 +77,8 @@
   margin-left: 0.9em;
   width: 1.3em;
   height: 1.3em;
-  border-top: 0.3em solid #333;
-  border-right: 0.3em solid #333;
+  border-top: 0.2em solid #333;
+  border-right: 0.2em solid #333;
   -moz-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -96,8 +104,8 @@
   margin-left: 1.2em;
   width: 1.4em;
   height: 1.4em;
-  border-top: 0.3em solid #333;
-  border-right: 0.3em solid #333;
+  border-top: 0.2em solid #333;
+  border-right: 0.2em solid #333;
   -moz-transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
