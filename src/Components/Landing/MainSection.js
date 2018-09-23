@@ -8,8 +8,9 @@ class MainSection extends Component {
       <div className="main-section">
         <div className="main-row">
           <div className="nav-circle-left">
-            <div className="nav-left"></div>
-            <p style={{textAlign: "center"}}>Web Projects</p>
+            <div className="nav-left">
+              <p className="nav-text">Web Projects</p>
+            </div>
           </div>
           <div className="my-info">
             <h1>Zach Evans</h1>
@@ -26,7 +27,7 @@ class MainSection extends Component {
           <div className="nav-circle-right">
             <div className="nav-right">  
             </div>  
-            <p>Mobile Projects</p>
+            <p style={{textAlign: "center"}}>Mobile Projects</p>
           </div>
         </div>
         <div className="nav-circle-bottom">

@@ -10,7 +10,6 @@
 
 .my-info {
   text-align: center;
-  
   justify-content: center;
 }
 
@@ -26,12 +25,20 @@
   padding: 1px;
 }
 
-.nav-circle-left {
-  background: rgba(0, 0, 0, 0);
+.nav-text {
+  color: red;
   
-  width: 5em;
+  text-align: center;
 }
 
+.nav-text:hover {
+  color: blue;
+}
+
+.nav-circle-left {
+  background: rgba(0, 0, 0, 0);
+  width: 5em;
+}
 
 .nav-left {
   float: left;
@@ -56,14 +63,16 @@
 }
 
 .nav-left:hover {
-  background: red;
+  background: rgb(211, 209, 209);
+}
+
+.nav-left:hover:after {
+  display: none;
 }
 
 .nav-circle-right {
   background: rgba(0, 0, 0, 0);
-  
   width: 5em;
-  
 }
 
 .nav-right {
