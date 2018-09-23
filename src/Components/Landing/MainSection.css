@@ -27,12 +27,16 @@
 
 .nav-text {
   color: red;
-  
+  opacity: 0;
   text-align: center;
+  /* display: none; */
+  
 }
 
 .nav-text:hover {
   color: blue;
+  opacity: 1;
+  border: solid red;
 }
 
 .nav-circle-left {
