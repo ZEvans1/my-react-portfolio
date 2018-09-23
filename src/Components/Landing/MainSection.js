@@ -26,8 +26,8 @@ class MainSection extends Component {
           </div>
           <div className="nav-circle-right">
             <div className="nav-right">  
+              <p className="nav-text">Mobile Projects</p>
             </div>  
-            <p style={{textAlign: "center"}}>Mobile Projects</p>
           </div>
         </div>
         <div className="nav-circle-bottom">

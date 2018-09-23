@@ -25,7 +25,7 @@
 }
 
 .nav-text {
-  color: red;
+  color: black;
   opacity: 0;
   text-align: center;
   position: absolute;
@@ -52,6 +52,7 @@
   height: 5.5em;
   border: 0.1em solid #333;
   border-radius: 50%;
+  background: rgba(216, 214, 214, 0.546);
 }
 
 .nav-left:after {
@@ -83,18 +84,19 @@
 
 .nav-right {
   float: right;
-  width: 4em;
-  height: 4em;
+  width: 5.5em;
+  height: 5.5em;
   border: 0.1em solid #333;
   border-radius: 50%;
   margin-left: 5em;
+  background: rgba(216, 214, 214, 0.546);
 }
 
 .nav-right:after {
   content: '';
 	display: inline-block;
-  margin-top: 1.2em;
-  margin-left: 0.9em;
+  margin-top: 1.9em;
+  margin-left: 1.7em;
   width: 1.3em;
   height: 1.3em;
   border-top: 0.2em solid #333;
@@ -102,6 +104,14 @@
   -moz-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.nav-right:hover {
+  background: rgb(211, 209, 209);
+}
+
+.nav-right:hover:after {
+  display: none;
 }
 
 .nav-circle-bottom {
