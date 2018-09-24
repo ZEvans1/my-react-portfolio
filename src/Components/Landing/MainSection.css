@@ -14,6 +14,7 @@
 
 .my-info {
   text-align: center;
+  color: rgba(21, 121, 116, 1);
 }
 
 .social-links {
@@ -23,7 +24,7 @@
   margin: auto; 
 }
 .social-links i {
-  color: rgba(88, 88, 88, 0.774);
+  color: rgba(146, 236, 94, 0.5);
   font-size: 5em;
   padding: 1px;
 }
