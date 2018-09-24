@@ -4,7 +4,6 @@
   background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
   position: fixed;
   display: flex;
-  align-items: center;
 }
 
 .test-class {

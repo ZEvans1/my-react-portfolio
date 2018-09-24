@@ -31,8 +31,9 @@ class MainSection extends Component {
           </div>
         </div>
         <div className="nav-circle-bottom">
-          <div className="nav-bottom"></div>
-          <p>Contact</p>
+          <div className="nav-bottom">
+            <p className="nav-text">Contact</p>
+          </div>
         </div>
       </div>
     );
