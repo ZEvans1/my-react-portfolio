@@ -14,13 +14,13 @@ class MainSection extends Component {
           </div>
           <div className="my-info">
             <h1>Zach Evans</h1>
-            <h2>Web & Mobile Developer</h2>
+            <h2>Web | Mobile</h2>
             <div className="social-links">
-              <a href="https://www.linkedin.com/in/zach-t-evans/" rel="noopener noreferrer" target="_blank">
-                <i className="fa fa-linkedin-square" aria-hidden="true"/>
-              </a>
               <a href="https://github.com/ZEvans1" rel="noopener noreferrer" target="_blank">
                 <i className="fa fa-github-square" aria-hidden="true"/>
+              </a>
+              <a href="https://www.linkedin.com/in/zach-t-evans/" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-linkedin-square" aria-hidden="true"/>
               </a>
             </div>
           </div>
