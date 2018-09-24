@@ -4,7 +4,10 @@
   position: fixed;
   display: flex;
   background-color: #0f1928;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/stardust.png"); */
+
 }
 
 .test-class {
