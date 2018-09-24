@@ -14,7 +14,7 @@
 
 .my-info {
   text-align: center;
-  color: rgba(21, 121, 116, 1);
+  color: rgb(204, 177, 55);
 }
 
 .social-links {
@@ -24,7 +24,7 @@
   margin: auto; 
 }
 .social-links i {
-  color: rgba(146, 236, 94, 0.5);
+  color: rgba(204, 177, 55, 0.4);
   font-size: 5em;
   padding: 1px;
 }
@@ -55,9 +55,10 @@
   float: left;
   width: 77px;
   height: 77px;
-  border: 1px solid #333;
+  border: 1px solid rgb(204, 177, 55);
   border-radius: 50%;
-  background: rgba(216, 214, 214, 0.546);
+  background: rgba(0,0,0,0);
+  /* background: rgba(216, 214, 214, 0.546); */
 }
 
 .nav-left:after {
@@ -67,8 +68,8 @@
   margin-left: 2.2em;
   width: 1.3em;
   height: 1.3em;
-  border-top: 0.2em solid #333;
-  border-right: 0.2em solid #333;
+  border-top: 0.2em solid rgb(204, 177, 55);
+  border-right: 0.2em solid rgb(204, 177, 55);
   -moz-transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
@@ -91,10 +92,10 @@
   float: right;
   width: 77px;
   height: 77px;
-  border: 1px solid #333;
+  border: 1px solid rgb(204, 177, 55);
   border-radius: 50%;
   margin-left: 5em;
-  background: rgba(216, 214, 214, 0.546);
+  /* background: rgba(216, 214, 214, 0.546); */
 }
 
 .nav-right:after {
@@ -104,8 +105,8 @@
   margin-left: 1.7em;
   width: 1.3em;
   height: 1.3em;
-  border-top: 0.2em solid #333;
-  border-right: 0.2em solid #333;
+  border-top: 0.2em solid rgb(204, 177, 55);
+  border-right: 0.2em solid rgb(204, 177, 55);
   -moz-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -130,9 +131,9 @@
 .nav-bottom {
   width: 77px;
   height: 77px;
-  border: 1px solid #333;
+  border: 1px solid rgb(204, 177, 55);
   border-radius: 50%;
-  background: rgba(216, 214, 214, 0.546);
+  /* background: rgba(216, 214, 214, 0.546); */
 }
 
 .nav-bottom:after {
@@ -142,8 +143,8 @@
   margin-left: 2.0em;
   width: 1.4em;
   height: 1.4em;
-  border-top: 0.2em solid #333;
-  border-right: 0.2em solid #333;
+  border-top: 0.2em solid rgb(204, 177, 55);
+  border-right: 0.2em solid rgb(204, 177, 55);
   -moz-transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
